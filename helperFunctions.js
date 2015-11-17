@@ -8,6 +8,7 @@ var makeGameBoard = function(boardSize) {
     var row = [];
     for(var j = 0; j < boardSize; j++) {
       var telegraphBlue1 = '#48B9C4'; //these are 'hex' representations of colors. It's just a way of telling the machine exactly what shade of blue we want. 
+      console.log("Just making a commit");
       var telegraphBlue2 = '#1A3D6D';
       //set an initial pattern of alternating colors on each square. 
       if ( (i + j) % 2 === 0 ) {
